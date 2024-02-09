@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tricentis Application Automation Test Suite">
+    <listeners>
+        <listener class-name="utility.ListenersImplementation"/>
+    </listeners>
+    <test name="Automobile Page Test Cases">
+        <parameter name="author" value="Salik Ansari"/>
+        <classes>
+            <class name="testcases.AutomobilePageVehicleDataTest"></class>
+        </classes>
+    </test>
+    <test name="Truck Page Test Cases">
+        <parameter name="author" value="Sarang Kale"/>
+        <classes>
+            <class name="testcases.TruckPageProductDataTest"></class>
+        </classes>
+    </test>
+</suite>

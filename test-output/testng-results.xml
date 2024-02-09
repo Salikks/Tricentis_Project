@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="37" passed="34" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-09T13:16:50 IST" name="Tricentis Application Automation Test Suite" finished-at="2024-02-09T13:17:53 IST" duration-ms="62759">
+    <groups>
+    </groups>
+    <test started-at="2024-02-09T13:16:50 IST" name="Automobile Page Test Cases" finished-at="2024-02-09T13:17:48 IST" duration-ms="57439">
+      <class name="testcases.AutomobilePageVehicleDataTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:16:50 IST" name="setUp" finished-at="2024-02-09T13:16:58 IST" duration-ms="7811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:16:58 IST" name="pageClassInitialization" finished-at="2024-02-09T13:16:59 IST" duration-ms="1104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyAutomobileLinkTest()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:16:59 IST" name="verifyAutomobileLinkTest" finished-at="2024-02-09T13:17:00 IST" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAutomobileLinkTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:00 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:01 IST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyManSignMakeTest()[pri:1, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:01 IST" name="verifyManSignMakeTest" finished-at="2024-02-09T13:17:02 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManSignMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:02 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:03 IST" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyHovErrMsgMakeTest()[pri:2, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:03 IST" name="verifyHovErrMsgMakeTest" finished-at="2024-02-09T13:17:03 IST" duration-ms="276" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Select an option] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Select an option] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testcases.AutomobilePageVehicleDataTest.verifyHovErrMsgMakeTest(AutomobilePageVehicleDataTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHovErrMsgMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:03 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:04 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyDropdownMakeTest()[pri:3, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:04 IST" name="verifyDropdownMakeTest" finished-at="2024-02-09T13:17:04 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:04 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:05 IST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyManMsgMakeTest()[pri:4, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:05 IST" name="verifyManMsgMakeTest" finished-at="2024-02-09T13:17:05 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManMsgMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:07 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:08 IST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:08 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:08 IST" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Audi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:08 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:09 IST" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:09 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:10 IST" duration-ms="347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BMW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:10 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:11 IST" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:11 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:11 IST" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ford]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:11 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:12 IST" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:12 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:13 IST" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Honda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:13 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:14 IST" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:14 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:14 IST" duration-ms="382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mazda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:14 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:15 IST" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:15 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:15 IST" duration-ms="390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mercedes Benz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:15 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:16 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:16 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:17 IST" duration-ms="410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nissan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:17 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:18 IST" duration-ms="981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:18 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:18 IST" duration-ms="418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:18 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:19 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:19 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:20 IST" duration-ms="422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Porsche]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:20 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:21 IST" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:21 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:21 IST" duration-ms="433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Renault]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:21 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:22 IST" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:22 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:22 IST" duration-ms="463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skoda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:22 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:23 IST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:23 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:24 IST" duration-ms="507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suzuki]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:24 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:25 IST" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:25 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:25 IST" duration-ms="463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:25 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:26 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:26 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:27 IST" duration-ms="467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Volkswagen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:27 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:28 IST" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyListMakeTest(java.lang.String)[pri:5, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:28 IST" name="verifyListMakeTest" data-provider="getMakeData" finished-at="2024-02-09T13:17:28 IST" duration-ms="492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Volvo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListMakeTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:28 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:30 IST" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyManSignEPTest()[pri:6, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:30 IST" name="verifyManSignEPTest" finished-at="2024-02-09T13:17:30 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManSignEPTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:30 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:31 IST" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyHovErrMsgEPTest()[pri:7, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:31 IST" name="verifyHovErrMsgEPTest" finished-at="2024-02-09T13:17:31 IST" duration-ms="161" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [This field is mandatory] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [This field is mandatory] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testcases.AutomobilePageVehicleDataTest.verifyHovErrMsgEPTest(AutomobilePageVehicleDataTest.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHovErrMsgEPTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:31 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:32 IST" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyManMsgEPTest()[pri:8, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:32 IST" name="verifyManMsgEPTest" finished-at="2024-02-09T13:17:32 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManMsgEPTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:32 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:33 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="alphaErrMsgEPTest()[pri:9, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:33 IST" name="alphaErrMsgEPTest" finished-at="2024-02-09T13:17:33 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alphaErrMsgEPTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:33 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:34 IST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="speErrMsgEPTest()[pri:10, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:34 IST" name="speErrMsgEPTest" finished-at="2024-02-09T13:17:34 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speErrMsgEPTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:34 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:35 IST" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="spaceErrMsgEPTest()[pri:11, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:35 IST" name="spaceErrMsgEPTest" finished-at="2024-02-09T13:17:36 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spaceErrMsgEPTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:36 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:37 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="lowErrMsgEPTest()[pri:12, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:37 IST" name="lowErrMsgEPTest" finished-at="2024-02-09T13:17:37 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lowErrMsgEPTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:37 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:38 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="highErrMsgEPTest()[pri:13, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:38 IST" name="highErrMsgEPTest" finished-at="2024-02-09T13:17:38 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highErrMsgEPTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:38 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:39 IST" duration-ms="977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="trueValueEPTest()[pri:14, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:39 IST" name="trueValueEPTest" finished-at="2024-02-09T13:17:39 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trueValueEPTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:39 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:40 IST" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyHovErrMsgDoMTest()[pri:15, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:40 IST" name="verifyHovErrMsgDoMTest" finished-at="2024-02-09T13:17:40 IST" duration-ms="170" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [This field is mandatory] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [This field is mandatory] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testcases.AutomobilePageVehicleDataTest.verifyHovErrMsgDoMTest(AutomobilePageVehicleDataTest.java:122)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHovErrMsgDoMTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:40 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:41 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyDatePickerTest()[pri:16, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:41 IST" name="verifyDatePickerTest" finished-at="2024-02-09T13:17:41 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDatePickerTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:41 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:42 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyCurMonthTest()[pri:17, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:42 IST" name="verifyCurMonthTest" finished-at="2024-02-09T13:17:43 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurMonthTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:43 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:44 IST" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyFwdPrevButtonTest()[pri:18, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:44 IST" name="verifyFwdPrevButtonTest" finished-at="2024-02-09T13:17:44 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFwdPrevButtonTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:44 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:45 IST" duration-ms="963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyFutureErrMsgTest()[pri:19, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:45 IST" name="verifyFutureErrMsgTest" finished-at="2024-02-09T13:17:45 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFutureErrMsgTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:45 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:46 IST" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyInvalidErrMsgTest()[pri:20, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:46 IST" name="verifyInvalidErrMsgTest" finished-at="2024-02-09T13:17:46 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidErrMsgTest -->
+        <test-method is-config="true" signature="pageClassInitialization()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:46 IST" name="pageClassInitialization" finished-at="2024-02-09T13:17:47 IST" duration-ms="992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClassInitialization -->
+        <test-method signature="verifyTrueDateTest()[pri:21, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:47 IST" name="verifyTrueDateTest" finished-at="2024-02-09T13:17:48 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTrueDateTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AutomobilePageVehicleDataTest@73a1e9a9]" started-at="2024-02-09T13:17:48 IST" name="tearDown" finished-at="2024-02-09T13:17:48 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AutomobilePageVehicleDataTest -->
+    </test> <!-- Automobile Page Test Cases -->
+    <test started-at="2024-02-09T13:17:48 IST" name="Truck Page Test Cases" finished-at="2024-02-09T13:17:53 IST" duration-ms="4735">
+      <class name="testcases.TruckPageProductDataTest">
+        <test-method is-config="true" signature="intializeExtentReports()[pri:0, instance:testcases.TruckPageProductDataTest@6a78afa0]" started-at="2024-02-09T13:16:50 IST" name="intializeExtentReports" finished-at="2024-02-09T13:16:50 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeExtentReports -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TruckPageProductDataTest@6a78afa0]" started-at="2024-02-09T13:17:48 IST" name="setUp" finished-at="2024-02-09T13:17:51 IST" duration-ms="2972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="google()[pri:0, instance:testcases.TruckPageProductDataTest@6a78afa0]" started-at="2024-02-09T13:17:51 IST" name="google" finished-at="2024-02-09T13:17:53 IST" duration-ms="1503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TruckPageProductDataTest@6a78afa0]" started-at="2024-02-09T13:17:53 IST" name="tearDown" finished-at="2024-02-09T13:17:53 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TruckPageProductDataTest -->
+    </test> <!-- Truck Page Test Cases -->
+  </suite> <!-- Tricentis Application Automation Test Suite -->
+</testng-results>
