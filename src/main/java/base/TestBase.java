@@ -32,8 +32,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\ansar\\eclipse-workspace\\Tricentis_Project\\"
-					+ "src\\main\\java\\properties\\config.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/properties/config.properties");
 			prop.load(ip);
 		} catch(FileNotFoundException e) {
 			e.printStackTrace();
