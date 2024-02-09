@@ -39,12 +39,17 @@ public class ListenersImplementation extends TestBase implements ITestListener {
     public void onTestStart(ITestResult result) {
         String methodName = result.getMethod().getMethodName();
         String author = result.getTestContext().getCurrentXmlTest().getParameter("author");
+        String[] groups = result.getMethod().getGroups();
 
         if (!testMap.containsKey(methodName)) {
             ExtentTest extentTest = extent.createTest(methodName).assignAuthor(author);
             testMap.put(methodName, extentTest);
         }
         test = testMap.get(methodName);
+        for (String group : groups) {
+            test.assignCategory(group);
+        }
+
         log.info(methodName + " has started");
     }
 

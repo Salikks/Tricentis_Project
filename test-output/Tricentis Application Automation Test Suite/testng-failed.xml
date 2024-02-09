@@ -10,11 +10,15 @@
       <class name="testcases.AutomobilePageVehicleDataTest">
         <methods>
           <include name="verifyHovErrMsgMakeTest"/>
+          <include name="verifyHovErrMsgFTTest"/>
           <include name="intializeExtentReports"/>
+          <include name="verifyHovErrMsgLPTest"/>
+          <include name="verifyHovErrMsgNoSTest"/>
           <include name="verifyHovErrMsgDoMTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="verifyHovErrMsgEPTest"/>
+          <include name="verifyHovErrMsgAMTest"/>
           <include name="pageClassInitialization"/>
         </methods>
       </class> <!-- testcases.AutomobilePageVehicleDataTest -->

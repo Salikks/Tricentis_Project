@@ -1,6 +1,10 @@
 package utility;
 
 import java.io.File;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -10,7 +14,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import org.apache.commons.io.FileUtils;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -31,26 +34,34 @@ public class TestUtil extends TestBase{
 		action.moveToElement(element).build().perform();
 	}
 	
-	public static Object[] getTestData(String sheetName) {
-	    List<String> dropdownValues = new ArrayList<>();
+    public static Object[] getTestData(String sheetName) {
+        List<String> dropdownValues = new ArrayList<>();
 
-	    try (FileInputStream file = new FileInputStream(TEST_DATA_PATH);
-	        XSSFWorkbook workbook = new XSSFWorkbook(file)) {
+        try (FileInputStream file = new FileInputStream(TEST_DATA_PATH);
+            XSSFWorkbook workbook = new XSSFWorkbook(file)) {
 
-	        XSSFSheet sheet = workbook.getSheet(sheetName);
-	        int rowCount = sheet.getPhysicalNumberOfRows();
+            Sheet sheet = workbook.getSheet(sheetName);
+            int rowCount = sheet.getPhysicalNumberOfRows();
 
-	        for (int i = 1; i < rowCount; i++) {
-	            String make = sheet.getRow(i).getCell(0).getStringCellValue();
-	            dropdownValues.add(make);
-	        }
+            for (int i = 1; i < rowCount; i++) {
+                Row row = sheet.getRow(i);
+                Cell cell = row.getCell(0);
+                if (cell != null) {
+                    String data;
+                    if (cell.getCellType() == CellType.NUMERIC) {
+                        data = String.valueOf((int) cell.getNumericCellValue());
+                    } else {
+                        data = cell.getStringCellValue();
+                    }
+                    dropdownValues.add(data);
+                }
+            }
 
-	    } catch (IOException e) {
-	        e.printStackTrace();
-	    }
-	    return dropdownValues.toArray();
-	}
-	
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return dropdownValues.toArray();
+    }
 	public static void captureScreenshot(String filename) {
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
