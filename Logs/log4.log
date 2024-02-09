@@ -1,0 +1,164 @@
+21:40:06.799 [main] INFO  - Chrome Browser instantiated
+21:40:29.081 [main] INFO  - verifyAutomobileLinkTest has started
+21:40:30.243 [main] INFO  - Test Case: verifyAutomobileLinkTest has Passed
+21:40:30.326 [main] INFO  - verifyManSignMakeTest has started
+21:40:30.385 [main] INFO  - Test Case: verifyManSignMakeTest has Passed
+21:40:30.453 [main] INFO  - verifyHovErrMsgMakeTest has started
+21:40:30.959 [main] INFO  - Test Case: verifyHovErrMsgMakeTest has Failed and Screenshot saved successfully
+21:40:31.027 [main] INFO  - verifyDropdownMakeTest has started
+21:40:31.196 [main] INFO  - Test Case: verifyDropdownMakeTest has Passed
+21:40:31.279 [main] INFO  - verifyManMsgMakeTest has started
+21:40:31.567 [main] INFO  - Test Case: verifyManMsgMakeTest has Passed
+21:40:32.795 [main] INFO  - verifyListMakeTest has started
+21:40:33.216 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:33.309 [main] INFO  - verifyListMakeTest has started
+21:40:33.676 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:33.760 [main] INFO  - verifyListMakeTest has started
+21:40:34.137 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:34.218 [main] INFO  - verifyListMakeTest has started
+21:40:34.609 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:34.685 [main] INFO  - verifyListMakeTest has started
+21:40:35.072 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:35.147 [main] INFO  - verifyListMakeTest has started
+21:40:35.574 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:35.655 [main] INFO  - verifyListMakeTest has started
+21:40:36.157 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:36.243 [main] INFO  - verifyListMakeTest has started
+21:40:36.666 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:36.751 [main] INFO  - verifyListMakeTest has started
+21:40:37.218 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:37.301 [main] INFO  - verifyListMakeTest has started
+21:40:37.776 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:37.864 [main] INFO  - verifyListMakeTest has started
+21:40:38.356 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:38.444 [main] INFO  - verifyListMakeTest has started
+21:40:38.961 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:39.047 [main] INFO  - verifyListMakeTest has started
+21:40:39.616 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:39.705 [main] INFO  - verifyListMakeTest has started
+21:40:40.238 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:40.320 [main] INFO  - verifyListMakeTest has started
+21:40:40.808 [main] INFO  - Test Case: verifyListMakeTest has Passed
+21:40:40.880 [main] INFO  - verifyManSignEPTest has started
+21:40:40.918 [main] INFO  - Test Case: verifyManSignEPTest has Passed
+21:40:40.985 [main] INFO  - verifyHovErrMsgEPTest has started
+21:40:41.349 [main] INFO  - Test Case: verifyHovErrMsgEPTest has Failed and Screenshot saved successfully
+21:40:41.414 [main] INFO  - verifyManMsgEPTest has started
+21:40:41.624 [main] INFO  - Test Case: verifyManMsgEPTest has Passed
+21:40:41.704 [main] INFO  - alphaErrMsgEPTest has started
+21:40:41.946 [main] INFO  - Test Case: alphaErrMsgEPTest has Passed
+21:40:42.027 [main] INFO  - speErrMsgEPTest has started
+21:40:42.266 [main] INFO  - Test Case: speErrMsgEPTest has Passed
+21:40:42.341 [main] INFO  - spaceErrMsgEPTest has started
+21:40:42.566 [main] INFO  - Test Case: spaceErrMsgEPTest has Passed
+21:40:42.646 [main] INFO  - lowErrMsgEPTest has started
+21:40:42.878 [main] INFO  - Test Case: lowErrMsgEPTest has Passed
+21:40:42.946 [main] INFO  - highErrMsgEPTest has started
+21:40:43.190 [main] INFO  - Test Case: highErrMsgEPTest has Passed
+21:40:43.275 [main] INFO  - trueValueEPTest has started
+21:40:43.476 [main] INFO  - Test Case: trueValueEPTest has Passed
+21:40:43.555 [main] INFO  - verifyHovErrMsgDoMTest has started
+21:40:43.947 [main] INFO  - Test Case: verifyHovErrMsgDoMTest has Failed and Screenshot saved successfully
+21:40:44.012 [main] INFO  - verifyDatePickerTest has started
+21:40:44.047 [main] INFO  - Test Case: verifyDatePickerTest has Passed
+21:40:44.111 [main] INFO  - verifyCurMonthTest has started
+21:40:44.254 [main] INFO  - Test Case: verifyCurMonthTest has Passed
+21:40:44.341 [main] INFO  - verifyFwdPrevButtonTest has started
+21:40:44.961 [main] INFO  - Test Case: verifyFwdPrevButtonTest has Passed
+21:40:45.039 [main] INFO  - verifyFutureErrMsgTest has started
+21:40:45.473 [main] INFO  - Test Case: verifyFutureErrMsgTest has Passed
+21:40:45.564 [main] INFO  - verifyInvalidErrMsgTest has started
+21:40:45.863 [main] INFO  - Test Case: verifyInvalidErrMsgTest has Passed
+21:40:45.928 [main] INFO  - verifyTrueDateTest has started
+21:40:46.196 [main] INFO  - Test Case: verifyTrueDateTest has Passed
+21:40:46.274 [main] INFO  - verifyManSignNoSTest has started
+21:40:46.307 [main] INFO  - Test Case: verifyManSignNoSTest has Passed
+21:40:46.376 [main] INFO  - verifyHovErrMsgNoSTest has started
+21:40:46.756 [main] INFO  - Test Case: verifyHovErrMsgNoSTest has Failed and Screenshot saved successfully
+21:40:46.827 [main] INFO  - verifyManMsgNoSTest has started
+21:40:47.083 [main] INFO  - Test Case: verifyManMsgNoSTest has Passed
+21:40:47.201 [main] INFO  - verifyListNoSTest has started
+21:40:47.527 [main] INFO  - Test Case: verifyListNoSTest has Passed
+21:40:47.609 [main] INFO  - verifyListNoSTest has started
+21:40:47.943 [main] INFO  - Test Case: verifyListNoSTest has Passed
+21:40:48.017 [main] INFO  - verifyListNoSTest has started
+21:40:48.363 [main] INFO  - Test Case: verifyListNoSTest has Passed
+21:40:48.438 [main] INFO  - verifyListNoSTest has started
+21:40:48.801 [main] INFO  - Test Case: verifyListNoSTest has Passed
+21:40:48.875 [main] INFO  - verifyListNoSTest has started
+21:40:49.256 [main] INFO  - Test Case: verifyListNoSTest has Passed
+21:40:49.330 [main] INFO  - verifyListNoSTest has started
+21:40:49.707 [main] INFO  - Test Case: verifyListNoSTest has Passed
+21:40:49.782 [main] INFO  - verifyListNoSTest has started
+21:40:50.163 [main] INFO  - Test Case: verifyListNoSTest has Passed
+21:40:50.235 [main] INFO  - verifyListNoSTest has started
+21:40:50.633 [main] INFO  - Test Case: verifyListNoSTest has Passed
+21:40:50.706 [main] INFO  - verifyListNoSTest has started
+21:40:51.115 [main] INFO  - Test Case: verifyListNoSTest has Passed
+21:40:51.188 [main] INFO  - verifyDropdownNoSTest has started
+21:40:51.500 [main] INFO  - Test Case: verifyDropdownNoSTest has Passed
+21:40:51.582 [main] INFO  - verifyManSignFTTest has started
+21:40:51.620 [main] INFO  - Test Case: verifyManSignFTTest has Passed
+21:40:51.684 [main] INFO  - verifyHovErrMsgFTTest has started
+21:40:52.035 [main] INFO  - Test Case: verifyHovErrMsgFTTest has Failed and Screenshot saved successfully
+21:40:52.102 [main] INFO  - verifyManMsgFTTest has started
+21:40:52.351 [main] INFO  - Test Case: verifyManMsgFTTest has Passed
+21:40:52.468 [main] INFO  - verifyListFTTest has started
+21:40:52.789 [main] INFO  - Test Case: verifyListFTTest has Passed
+21:40:52.868 [main] INFO  - verifyListFTTest has started
+21:40:53.197 [main] INFO  - Test Case: verifyListFTTest has Passed
+21:40:53.272 [main] INFO  - verifyListFTTest has started
+21:40:53.620 [main] INFO  - Test Case: verifyListFTTest has Passed
+21:40:53.699 [main] INFO  - verifyListFTTest has started
+21:40:54.050 [main] INFO  - Test Case: verifyListFTTest has Passed
+21:40:54.124 [main] INFO  - verifyListFTTest has started
+21:40:54.497 [main] INFO  - Test Case: verifyListFTTest has Passed
+21:40:54.573 [main] INFO  - verifyDropdownFTTest has started
+21:40:54.858 [main] INFO  - Test Case: verifyDropdownFTTest has Passed
+21:40:54.933 [main] INFO  - verifyManSignLPTest has started
+21:40:54.969 [main] INFO  - Test Case: verifyManSignLPTest has Passed
+21:40:55.033 [main] INFO  - verifyHovErrMsgLPTest has started
+21:40:55.381 [main] INFO  - Test Case: verifyHovErrMsgLPTest has Failed and Screenshot saved successfully
+21:40:55.457 [main] INFO  - verifyManMsgLPTest has started
+21:40:55.641 [main] INFO  - Test Case: verifyManMsgLPTest has Passed
+21:40:55.711 [main] INFO  - alphaErrMsgLPTest has started
+21:40:55.957 [main] INFO  - Test Case: alphaErrMsgLPTest has Passed
+21:40:56.062 [main] INFO  - speErrMsgLPTest has started
+21:40:56.327 [main] INFO  - Test Case: speErrMsgLPTest has Passed
+21:40:56.393 [main] INFO  - spaceErrMsgLPTest has started
+21:40:56.609 [main] INFO  - Test Case: spaceErrMsgLPTest has Passed
+21:40:56.677 [main] INFO  - lowErrMsgLPTest has started
+21:40:56.899 [main] INFO  - Test Case: lowErrMsgLPTest has Passed
+21:40:56.972 [main] INFO  - highErrMsgLPTest has started
+21:40:57.225 [main] INFO  - Test Case: highErrMsgLPTest has Passed
+21:40:57.290 [main] INFO  - trueValueLPTest has started
+21:40:57.507 [main] INFO  - Test Case: trueValueLPTest has Passed
+21:40:57.577 [main] INFO  - verifyErrMsgLicPNTest has started
+21:40:57.852 [main] INFO  - Test Case: verifyErrMsgLicPNTest has Passed
+21:40:57.925 [main] INFO  - verifyTrueLicPNTest has started
+21:40:58.150 [main] INFO  - Test Case: verifyTrueLicPNTest has Passed
+21:40:58.225 [main] INFO  - verifyManSignAMTest has started
+21:40:58.261 [main] INFO  - Test Case: verifyManSignAMTest has Passed
+21:40:58.327 [main] INFO  - verifyHovErrMsgAMTest has started
+21:40:58.683 [main] INFO  - Test Case: verifyHovErrMsgAMTest has Failed and Screenshot saved successfully
+21:40:58.752 [main] INFO  - verifyManMsgAMTest has started
+21:40:58.934 [main] INFO  - Test Case: verifyManMsgAMTest has Passed
+21:40:59.004 [main] INFO  - alphaErrMsgAMTest has started
+21:40:59.219 [main] INFO  - Test Case: alphaErrMsgAMTest has Passed
+21:40:59.290 [main] INFO  - speErrMsgAMTest has started
+21:40:59.514 [main] INFO  - Test Case: speErrMsgAMTest has Passed
+21:40:59.584 [main] INFO  - spaceErrMsgAMTest has started
+21:40:59.807 [main] INFO  - Test Case: spaceErrMsgAMTest has Passed
+21:40:59.877 [main] INFO  - lowErrMsgAMTest has started
+21:41:00.091 [main] INFO  - Test Case: lowErrMsgAMTest has Passed
+21:41:00.158 [main] INFO  - highErrMsgAMTest has started
+21:41:00.383 [main] INFO  - Test Case: highErrMsgAMTest has Passed
+21:41:00.449 [main] INFO  - trueValueAMTest has started
+21:41:00.667 [main] INFO  - Test Case: trueValueAMTest has Passed
+21:41:00.739 [main] INFO  - verifyNextButtonTest has started
+21:41:00.910 [main] INFO  - Test Case: verifyNextButtonTest has Passed
+21:41:01.947 [main] INFO  - Quitting the driver
+21:41:03.066 [main] INFO  - Chrome Browser instantiated
+21:41:23.426 [main] INFO  - google has started
+21:41:24.788 [main] INFO  - Test Case: google has Passed
+21:41:25.128 [main] INFO  - Quitting the driver

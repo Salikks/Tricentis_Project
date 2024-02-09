@@ -48,6 +48,7 @@ public class TestBase {
 	
 	@BeforeTest
 	public void setUp() {
+		System.setProperty("Logs", "Logs");
 		log = LogManager.getLogger(TestBase.class);
 	    String browserName = prop.getProperty("browser");
 	    if (browserName.equals("chrome")) {
